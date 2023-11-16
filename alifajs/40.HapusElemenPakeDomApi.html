@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menghapus elemen dgn dom api</title>
+</head>
+<body>
+    <h2 id="judul2">delete saya</h2>
+
+    <script>
+        // memilih elemen berdasarkan id
+        var h2 = document.getElementById('judul2');
+
+        // menghapus elemen yg sdh dipilih
+        h2.remove(h2);
+
+        console.log("elemen sudah dihapus");
+        console.log(h2);
+
+    </script>
+</body>
+</html>
